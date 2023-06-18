@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
 	font-family: sans-serif;
 }
 
@@ -11,13 +10,12 @@ button {
 	background: none;
 	outline: none;
 	border: none;
-
 	cursor: pointer;
 }
 
 body {
-	background-color: #242948;
-	color: #fff;
+	background-color:#FFD95A;
+	color: #4C3D3D;
 }
 
 main {
@@ -40,25 +38,60 @@ main {
 }
 
 .app header h1 {
-	color: #fff;
+	color: #4C3D3D;
 	font-size: 24px;
 	font-weight: 400;
 }
 
-.app header button {
-	color: #fff;
-	font-size: 18px;
-	border-bottom: 2px solid #fff;
-	text-transform: uppercase;
-}
+.app .btn-add-task button {
+	background-color:#C07F00;
+    color: #4C3D3D;
+    border-radius: 5px;
+    padding: 10px;
+    font-size:15px;
+    font-family: sans-serif;
+    font-weight:bolder;
 
+}
+a:link,
+a:visited {
+  color: #4C3D3D;
+}
+a:focus,
+a:hover,
+a:active {
+  color: #FFF7D4;
+}
+a {
+  text-decoration: none;
+  color: #FFF7D4;
+}
+.app header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+.app header nav ul li {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+.app header nav ul li a {
+    display: block;
+    border: 1px solid;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+  }
 .item {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 1.5rem;
 	border-radius: 1rem;
-	background-color: #1e223d;
+	background-color: #FFF7D4;
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 	margin-bottom: 1.5rem;
 }
@@ -77,14 +110,14 @@ main {
 	border: none;
 	outline: none;
 	font-weight: 400;
-	color: #fff;
+	color: #4C3D3D;
 	font-size: 20px;
 	flex: 1 1 0%;
 	margin-right: 1rem;
 }
 
 .item input[type="text"]:not(:disabled) {
-	border-bottom: 2px solid #fff;
+	border-bottom: 2px solid #4C3D3D;
 }
 
 .item.complete {
@@ -97,18 +130,18 @@ main {
 
 .item:hover,
 .item:focus-within {
-	outline: 2px solid #fff;
+	outline: 2px solid #4C3D3D;
 }
 
 .actions button {
-	color: #CCC;
+	color: #4C3D3D;
 	margin-right: 1rem;
 	opacity: 0.8;
 	transform: 0.1s;
 }
 
 .actions button.remove-btn {
-	color: crimson;
+	color: red;
 }
 
 .actions button:hover {

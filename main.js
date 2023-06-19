@@ -1,5 +1,5 @@
 const list_el = document.getElementById("list");
-const create_btn_el = document.getElementById("create");
+const create_btn_el = document.getElementById("add-task");
 
 let todos = [];
 

@@ -5,8 +5,8 @@
     
 }
 body {
-  background-color: #ffd95a !important;
-  color: #4C3D3D;
+	background-color: #FFD95A;
+	color: #4C3D3D;
 }
 
 main {
@@ -42,8 +42,6 @@ nav ul {
   }
   nav ul li a {
     display: block;
-    border: 1px solid;
-    border-radius: 0.5em;
     padding: 0.5em 1em;
     margin: 0.5em;
   }
@@ -51,7 +49,6 @@ nav ul {
 #btn-link{
     background-color:#C07F00;
     color: #4C3D3D;
-    border-radius: 5px;
     padding: 10px;
     font-size:15px;
     font-family: sans-serif;

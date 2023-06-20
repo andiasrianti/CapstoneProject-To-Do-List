@@ -5,8 +5,8 @@
     
 }
 body {
-	background-color: #FFD95A;
-	color: #4C3D3D;
+  background-color: #ffd95a !important;
+  color: #4C3D3D;
 }
 
 main {
@@ -57,7 +57,4 @@ nav ul {
     font-family: sans-serif;
     text-decoration: none;
     color: #FFF7D4;
-}
-.card-img-top{
-    width: 50%  ;
 }

@@ -32,15 +32,13 @@ main {
 
 .app header {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	align-items: end;
+	justify-content:end;
 	margin-bottom: 1rem;
 }
 
 .app header h1 {
 	color: #4C3D3D;
-	font-size: 24px;
-	font-weight: 400;
 }
 
 .app .btn-add-task button {
@@ -68,22 +66,14 @@ a {
   text-decoration: none;
   color: #FFF7D4;
 }
-.app header nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display:flex;
-  }
-.app header nav ul li {
-    font-size: 0.8em;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-  }
-.app header nav ul li a {
-    display:flex;
-    padding: 0.5em 1em;
-    margin: 0.5em;
-  }
+  nav ul {
+	list-style-type: none;
+	display: flex;
+	}
+  nav ul li a {
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	}
 .item {
 	display: flex;
 	align-items: center;
